@@ -6,6 +6,6 @@ port: 1521
 
 sid: xe
 
-username: AppUser
+username: Admin
 
-password: AppUser123
+password: Admin123
