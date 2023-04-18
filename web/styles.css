@@ -74,6 +74,14 @@ main {
 
 }
 
+#mod_list {
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
 .game {
 
     max-width: 16rem;
@@ -84,7 +92,23 @@ main {
 
 }
 
+.mod {
+
+    max-width: 16rem;
+    text-align: center;
+    height: 380px;
+    text-decoration: none;
+    color: white;
+
+}
+
 .game img {
+
+    width: 100%;
+
+}
+
+.mod img {
 
     width: 100%;
 
