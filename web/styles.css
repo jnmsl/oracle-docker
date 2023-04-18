@@ -1,0 +1,103 @@
+body {
+
+    margin: auto;
+    background: url("desktop-1920x1080.jpg") black no-repeat center top;
+
+}
+
+header {
+
+    width: 100%;
+    margin-bottom: 0;
+
+}
+
+
+header nav {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    height: 66px;
+
+}
+
+header nav img {
+
+    height: 42px;
+    padding-left: 2rem;
+    flex-grow: 0;
+
+}
+
+header nav ul {
+
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+
+}
+
+header nav ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+
+}
+
+main {
+
+    background-color: #393030;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 76%;
+    margin-top: 0;
+    position: absolute;
+    bottom: 40px;
+    top: 66px;
+    color: white;
+    padding: 1.5rem;
+
+}
+
+#game_list {
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.game {
+
+    max-width: 16rem;
+    text-align: center;
+    height: 380px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.game img {
+
+    width: 100%;
+
+}
+
+footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 40px;
+
+
+}
