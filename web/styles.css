@@ -43,17 +43,22 @@ header nav ul {
 
 }
 
-header nav ul li a {
+a {
 
     text-decoration: none;
     color: white;
+
+}
+
+header nav ul li a {
+
     font-size: 35px;
 
 }
 
 main {
 
-    background-color: #393030;
+    background-color: #262626;
     margin-left: 12%;
     margin-right: 12%;
     width: 76%;
@@ -114,6 +119,153 @@ main {
 
 }
 
+#top1 {
+
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+    margin-right: none;
+
+}
+
+#top1 h2 {
+
+    font-size: 1.4rem;
+
+}
+
+#top2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+
+#track {
+
+    width: 19rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#top2 h1 {
+
+    font-size: 2.3rem;
+
+}
+
+#track h3 {
+
+    font-size: 1.3rem;
+
+
+}
+
+#track button {
+
+    width: 5.5rem;
+    height:3rem;
+    background-color: #80aaff;
+    color: white;
+
+}
+
+#images {
+
+    margin-top: 2rem;
+    background-color: #333333;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+#images::-webkit-scrollbar {
+      width: 10px;
+   }
+
+#images::-webkit-scrollbar-track {
+    background-color: #333333;
+  }
+
+#images::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+    border-radius: 20px;
+  }
+
+#images img {
+
+    max-width: 16%;
+    padding: 1rem;
+
+}
+
+#nav2 {
+
+    margin-top: 1.5rem;
+    display: flex;
+    height: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+#nav2 button {
+
+    width: 9%;
+    text-align: center;
+    background-color: #80aaff;
+    color: white;
+
+}
+
+.souboros {
+
+    display: flex;
+    justify-content: space-between;
+    width: 39rem;
+    height: 3rem;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.souboros  * {
+
+    min-width: 5rem;
+
+}
+
+.souboros button {
+
+    background-color: #80aaff;
+    color: white;
+    width: 6rem;
+    height: 2rem;
+
+}
+
+.login-container {
+
+  display: flex;
+
+}
+
+.login-section {
+
+  flex: 1;
+  margin-right: 20px;
+
+}
+
+.image-section {
+
+  flex: 1;
+
+}
+
 footer {
 
     position: absolute;
@@ -122,6 +274,5 @@ footer {
     background-color: black;
     color: white;
     height: 40px;
-
 
 }
