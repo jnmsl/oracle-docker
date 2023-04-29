@@ -56,6 +56,8 @@
             <button onclick="changelog()">Changelog</button>
             <button onclick="files()">Soubory</button>
             <button onclick="news()">Novinky</button>
+            <button onclick="user_images()">Uživatelské obrázky</button>
+            <button onclick="videos()">Videa</button>
 
         </article>
 
@@ -73,7 +75,19 @@
 
         <section id="changelog">
 
-            <p>22-1-2019: changelog</p>
+            <ul class="novinka">
+
+                <h3>v5.2.4</h3>
+                <li>Úprava</li>
+
+            </ul>
+
+            <ul class="novinka">
+
+                <h3>v5.2.3</h3>
+                <li>Úprava</li>
+
+            </ul>
 
         </section>
 
@@ -107,7 +121,38 @@
 
         <section id="news">
 
-            <p>22-1-4: novinka</p>
+            <ul class="novinka">
+
+                <h3>2022-1-4</h3>
+                <li>Novinka</li>
+
+            </ul>
+
+            <ul class="novinka">
+
+                <h3>2021-1-4</h3>
+                <li>Novinka</li>
+
+            </ul>
+
+        </section>
+
+        <section id="user_images">
+
+            <button>Upload nového obrázku</button>
+
+            <article id="list_of_images">
+                <img src="SkyUI/4.webp">
+                <img src="SkyUI/4.webp">
+                <img src="SkyUI/4.webp">
+                <img src="SkyUI/4.webp">
+            </article>
+
+        </section>
+
+        <section id="videos">
+
+            <p>video lol</p>
 
         </section>
 
@@ -126,6 +171,9 @@ function description() {
     document.getElementById("changelog").style.display = "none";
     document.getElementById("files").style.display = "none";
     document.getElementById("news").style.display = "none";
+    document.getElementById("user_images").style.display = "none";
+    document.getElementById("videos").style.display = "none";
+
 }}
 
 function changelog() {
@@ -135,6 +183,9 @@ function changelog() {
     document.getElementById("description").style.display = "none";
     document.getElementById("files").style.display = "none";
     document.getElementById("news").style.display = "none";
+    document.getElementById("user_images").style.display = "none";
+    document.getElementById("videos").style.display = "none";
+
 }}
 
 function files() {
@@ -144,6 +195,9 @@ function files() {
     document.getElementById("description").style.display = "none";
     document.getElementById("changelog").style.display = "none";
     document.getElementById("news").style.display = "none";
+    document.getElementById("user_images").style.display = "none";
+    document.getElementById("videos").style.display = "none";
+
 }}
 
 function news() {
@@ -153,6 +207,31 @@ function news() {
     document.getElementById("description").style.display = "none";
     document.getElementById("changelog").style.display = "none";
     document.getElementById("files").style.display = "none";
+    document.getElementById("user_images").style.display = "none";
+    document.getElementById("videos").style.display = "none";
+
+}}
+
+function user_images() {
+  var x = document.getElementById("user_images");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    document.getElementById("description").style.display = "none";
+    document.getElementById("changelog").style.display = "none";
+    document.getElementById("files").style.display = "none";
+    document.getElementById("news").style.display = "none";
+    document.getElementById("videos").style.display = "none";
+}}
+
+function videos() {
+  var x = document.getElementById("videos");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    document.getElementById("description").style.display = "none";
+    document.getElementById("changelog").style.display = "none";
+    document.getElementById("files").style.display = "none";
+    document.getElementById("news").style.display = "none";
+    document.getElementById("user_images").style.display = "none";
 }}
 
 function clear() {
@@ -161,6 +240,8 @@ function clear() {
     document.getElementById("changelog").style.display = "none";
     document.getElementById("files").style.display = "none";
     document.getElementById("news").style.display = "none";
+    document.getElementById("user_images").style.display = "none";
+    document.getElementById("videos").style.display = "none";
 
     description();
 

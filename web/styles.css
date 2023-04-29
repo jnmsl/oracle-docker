@@ -214,10 +214,11 @@ main {
 
 #nav2 button {
 
-    width: 9%;
+    width: 12%;
     text-align: center;
     background-color: #80aaff;
     color: white;
+    height: auto;
 
 }
 
@@ -256,13 +257,95 @@ main {
 .login-section {
 
   flex: 1;
-  margin-right: 20px;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+
+}
+
+input {
+
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+
+}
+
+label {
+
+    font-size: 1.2rem;
+
+}
+
+#submit {
+
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2.5rem;
+    background-color: #80aaff;
+    color: white;
 
 }
 
 .image-section {
 
   flex: 1;
+
+}
+
+.novinka {
+
+    margin-bottom: 1.5rem;
+    border-bottom: solid white 2px;
+    padding-bottom: 0.7rem;
+    list-style-type: square;
+
+}
+
+.novinka a {
+
+    color: #80aaff;
+
+}
+
+#user_images button {
+
+    height: 2.1rem;
+    text-align: center;
+    background-color: #80aaff;
+    color: white;
+    float: right;
+
+}
+
+#list_of_images {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#list_of_images img {
+
+    min-width: 16rem;
+    max-width: 22%;
+    padding: 1rem;
+
+}
+
+#select {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#select button {
+
+    width: 7.5rem;
+    height: 2rem;
+    background-color: #80aaff;
+    color: white;
 
 }
 
