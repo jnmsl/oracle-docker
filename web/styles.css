@@ -82,9 +82,13 @@ main {
 
 #mod_list {
 
-    margin-top: 3rem;
-    display: flex;
-    justify-content: space-evenly;
+    margin-left: 1.5rem;
+
+}
+
+#mod_list li {
+
+
 
 }
 
@@ -226,8 +230,7 @@ main {
 
 #files_list {
 
-    float: left;
-    width: 100%;
+
 
 }
 
@@ -303,8 +306,7 @@ label {
 
 #changes_list {
 
-    float: left;
-    width: 100%;
+
 
 }
 
@@ -326,7 +328,7 @@ label {
 
 #list_of_mods {
 
-    float: left;
+
 
 }
 
@@ -387,11 +389,8 @@ label {
 
 #list_of_images {
 
-    float: left;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin-top: 1rem;
 
 }
 
@@ -449,11 +448,8 @@ label {
 
 #videos_list {
 
-    float: left;
     display: flex;
     flex: wrap;
-    width: 100%;
-    margin-top: 1rem;
 
 }
 
@@ -466,10 +462,11 @@ iframe {
 
 }
 
-#mod_list {
+.list {
 
     float: left;
     width: 100%;
+    margin-top: 1rem;
 
 }
 

@@ -80,7 +80,7 @@
 
             <button class="upload_author_only" id="add_new_changelog">Přidat novou aktualizaci</button>
 
-            <article id="changes_list">
+            <article class="list" id="changes_list">
 
                 <ul class="changelog">
 
@@ -104,7 +104,7 @@
 
             <button class="upload_author_only" id="add_file_to_mod">Přidat soubor</button>
 
-            <article id="files_list">
+            <article class="list" id="files_list">
 
                 <article class="souboros">
 
@@ -138,7 +138,7 @@
 
             <button class="upload_author_only" id="add_news_to_mod">Přidat novinku</button>
 
-            <article id="list_of_mods">
+            <article class="list" id="list_of_mods">
 
                 <ul class="novinka">
 
@@ -170,7 +170,7 @@
 
             <button class="upload_user" id="upload_mod_button">Upload nového obrázku</button>
 
-            <article id="list_of_images">
+            <article class="list" id="list_of_images">
                 <img src="SkyUI/4.webp">
                 <img src="SkyUI/4.webp">
                 <img src="SkyUI/4.webp">
@@ -183,7 +183,7 @@
 
             <button class="upload_author_only" id="new_video">Upload nového videa</button>
 
-            <article id="videos_list">
+            <article class="list" id="videos_list">
 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/aM7zd24AH7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -199,23 +199,27 @@
 
             <button  class="upload_user" id="add_comment">Přidat komentář</button>
 
-            <article class="comment">
+            <article class="list" id="comment_list">
 
-                <article class="created">
-                    <p class="author">NNNNN</p>
-                    <p class="date">13.3.2022</p>
+                <article class="comment">
+
+                    <article class="created">
+                        <p class="author">NNNNN</p>
+                        <p class="date">13.3.2022</p>
+                    </article>
+                    <p class="content">fffffffffffffffffffffffffffffff</p>
+
                 </article>
-                <p class="content">fffffffffffffffffffffffffffffff</p>
 
-            </article>
+                <article class="comment">
 
-            <article class="comment">
+                    <article class="created">
+                        <p class="author">NNNNN</p>
+                        <p class="date">13.3.2022</p>
+                    </article>
+                    <p class="content">fffffffffffffffffffffffffffffff</p>
 
-                <article class="created">
-                    <p class="author">NNNNN</p>
-                    <p class="date">13.3.2022</p>
                 </article>
-                <p class="content">fffffffffffffffffffffffffffffff</p>
 
             </article>
 
@@ -225,7 +229,7 @@
 
             <button class="upload_author_only" id="add_requirement">Přidat REQ</button>
 
-            <article id="mod_list">
+            <article class="list" id="mod_list">
 
                 <h3>List vyžadovaných modů:</h3>
 
@@ -237,6 +241,12 @@
                 </article>
 
                 <h3>List modů vyžadující tento:</h3>
+
+                <article id="required_by">
+
+                    <li>Maximum Carnage</li>
+
+                </article>
 
             </article>
 
