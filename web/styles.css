@@ -104,6 +104,21 @@ main {
     text-decoration: none;
     color: white;
     background: #4e4e4e;
+    position: relative;
+
+}
+
+.game h2 {
+
+   position: absolute;
+   bottom: 0.4rem;
+
+}
+
+
+.game img {
+
+    width: 100%;
 
 }
 
@@ -115,18 +130,28 @@ main {
     text-decoration: none;
     color: white;
     background: #4e4e4e;
-
-}
-
-.game img {
-
-    width: 100%;
+    position: relative;
 
 }
 
 .mod img {
 
     width: 100%;
+
+}
+
+.mod h2{
+
+display:inline-block;
+    vertical-align:middle;
+
+}
+
+.mod p {
+
+       position: absolute;
+       bottom: 0rem;
+       padding: 0.4rem;
 
 }
 
