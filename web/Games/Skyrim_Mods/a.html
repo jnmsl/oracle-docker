@@ -22,6 +22,7 @@
         <article id="top1">
 
             <h2><a href="../../index.html"> Index </a> / <a href="../skyrim_mods.html">Skyrim</a> / SkyUI</h2>
+            <button class="upload_author_only" id="edit_mod">Upravit Mod</button>
 
             <h4>Uploadnuto uživatelem <a href="../../Users/schlangster.html">schlangster</a> dne 1. 7. 2018</h4>
 
@@ -58,6 +59,8 @@
             <button onclick="news()">Novinky</button>
             <button onclick="user_images()">Uživatelské obrázky</button>
             <button onclick="videos()">Videa</button>
+            <button onclick="comments()">Komentáře</button>
+            <button onclick="dependecny()">Požadavky</button>
 
         </article>
 
@@ -75,44 +78,56 @@
 
         <section id="changelog">
 
-            <ul class="novinka">
+            <button class="upload_author_only" id="add_new_changelog">Přidat novou aktualizaci</button>
 
-                <h3>v5.2.4</h3>
-                <li>Úprava</li>
+            <article id="changes_list">
 
-            </ul>
+                <ul class="changelog">
 
-            <ul class="novinka">
+                    <h3>v5.2.4</h3>
+                    <li>Úprava</li>
 
-                <h3>v5.2.3</h3>
-                <li>Úprava</li>
+                </ul>
 
-            </ul>
+                <ul class="changelog">
+
+                    <h3>v5.2.3</h3>
+                    <li>Úprava</li>
+
+                </ul>
+
+            </article>
 
         </section>
 
         <section id="files">
 
-            <article class="souboros">
+            <button class="upload_author_only" id="add_file_to_mod">Přidat soubor</button>
 
-                <h3>SkyUI</h3>
-                <h3>5.2.4</h3>
-                <button>DOWNLOAD</button>
-            </article>
+            <article id="files_list">
 
-            <article class="souboros">
+                <article class="souboros">
 
-                <h3>SkyUI</h3>
-                <h3>5.2.3</h3>
-                <button>DOWNLOAD</button>
+                    <h3>SkyUI</h3>
+                    <h3>5.2.4</h3>
+                    <button>DOWNLOAD</button>
+                </article>
 
-            </article>
+                <article class="souboros">
 
-            <article class="souboros">
+                    <h3>SkyUI</h3>
+                    <h3>5.2.3</h3>
+                    <button>DOWNLOAD</button>
 
-                <h3>SkyUI</h3>
-                <h3>5.2.2</h3>
-                <button>DOWNLOAD</button>
+                </article>
+
+                <article class="souboros">
+
+                    <h3>SkyUI</h3>
+                    <h3>5.2.2</h3>
+                    <button>DOWNLOAD</button>
+
+                </article>
 
             </article>
 
@@ -121,25 +136,39 @@
 
         <section id="news">
 
-            <ul class="novinka">
+            <button class="upload_author_only" id="add_news_to_mod">Přidat novinku</button>
 
-                <h3>2022-1-4</h3>
-                <li>Novinka</li>
+            <article id="list_of_mods">
 
-            </ul>
+                <ul class="novinka">
 
-            <ul class="novinka">
+                    <article class="headline_comment">
+                        <h4>2022-1-5</h4>
+                        <h3>schlangster</h3>
+                        <p>headline</p>
+                    </article>
+                    <li>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Fusce aliquam vestibulum ipsum. Nullam dapibus fermentum ipsum. In convallis. Integer imperdiet lectus quis justo. Sed convallis magna eu sem. Etiam posuere lacus quis dolor. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Fusce wisi. Vestibulum fermentum tortor id mi. Vivamus ac leo pretium faucibus. Nulla non arcu lacinia neque faucibus fringilla. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Proin in tellus sit amet nibh dignissim sagittis. Nunc tincidunt ante vitae massa.</li>
 
-                <h3>2021-1-4</h3>
-                <li>Novinka</li>
+                </ul>
 
-            </ul>
+                <ul class="novinka">
+
+                    <article class="headline_comment">
+                        <h4>2021-1-4</h4>
+                        <h3>schlangster</h3>
+                        <p>headline</p>
+                    </article>
+                    <li>Duis risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Fusce aliquam vestibulum ipsum. Nullam dapibus fermentum ipsum. In convallis. Integer imperdiet lectus quis justo. Sed convallis magna eu sem. Etiam posuere lacus quis dolor. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Fusce wisi. Vestibulum fermentum tortor id mi. Vivamus ac leo pretium faucibus. Nulla non arcu lacinia neque faucibus fringilla. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Proin in tellus sit amet nibh dignissim sagittis. Nunc tincidunt ante vitae massa.</li>
+
+                </ul>
+
+            </article>
 
         </section>
 
         <section id="user_images">
 
-            <button>Upload nového obrázku</button>
+            <button class="upload_user" id="upload_mod_button">Upload nového obrázku</button>
 
             <article id="list_of_images">
                 <img src="SkyUI/4.webp">
@@ -152,7 +181,64 @@
 
         <section id="videos">
 
-            <p>video lol</p>
+            <button class="upload_author_only" id="new_video">Upload nového videa</button>
+
+            <article id="videos_list">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aM7zd24AH7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aM7zd24AH7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aM7zd24AH7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </article>
+
+        </section>
+
+        <section id="comments">
+
+            <button  class="upload_user" id="add_comment">Přidat komentář</button>
+
+            <article class="comment">
+
+                <article class="created">
+                    <p class="author">NNNNN</p>
+                    <p class="date">13.3.2022</p>
+                </article>
+                <p class="content">fffffffffffffffffffffffffffffff</p>
+
+            </article>
+
+            <article class="comment">
+
+                <article class="created">
+                    <p class="author">NNNNN</p>
+                    <p class="date">13.3.2022</p>
+                </article>
+                <p class="content">fffffffffffffffffffffffffffffff</p>
+
+            </article>
+
+        </section>
+
+        <section id="dependecny">
+
+            <button class="upload_author_only" id="add_requirement">Přidat REQ</button>
+
+            <article id="mod_list">
+
+                <h3>List vyžadovaných modů:</h3>
+
+                <article id="needed_mod_list">
+
+                    <li>Unoficial Skyrim Patch</li>
+                    <li>SKSE</li>
+
+                </article>
+
+                <h3>List modů vyžadující tento:</h3>
+
+            </article>
 
         </section>
 
@@ -173,6 +259,8 @@ function description() {
     document.getElementById("news").style.display = "none";
     document.getElementById("user_images").style.display = "none";
     document.getElementById("videos").style.display = "none";
+    document.getElementById("comments").style.display = "none";
+    document.getElementById("dependecny").style.display = "none";
 
 }}
 
@@ -185,6 +273,8 @@ function changelog() {
     document.getElementById("news").style.display = "none";
     document.getElementById("user_images").style.display = "none";
     document.getElementById("videos").style.display = "none";
+    document.getElementById("comments").style.display = "none";
+    document.getElementById("dependecny").style.display = "none";
 
 }}
 
@@ -197,6 +287,8 @@ function files() {
     document.getElementById("news").style.display = "none";
     document.getElementById("user_images").style.display = "none";
     document.getElementById("videos").style.display = "none";
+    document.getElementById("comments").style.display = "none";
+    document.getElementById("dependecny").style.display = "none";
 
 }}
 
@@ -209,6 +301,8 @@ function news() {
     document.getElementById("files").style.display = "none";
     document.getElementById("user_images").style.display = "none";
     document.getElementById("videos").style.display = "none";
+    document.getElementById("comments").style.display = "none";
+    document.getElementById("dependecny").style.display = "none";
 
 }}
 
@@ -221,6 +315,9 @@ function user_images() {
     document.getElementById("files").style.display = "none";
     document.getElementById("news").style.display = "none";
     document.getElementById("videos").style.display = "none";
+    document.getElementById("comments").style.display = "none";
+    document.getElementById("dependecny").style.display = "none";
+
 }}
 
 function videos() {
@@ -232,6 +329,34 @@ function videos() {
     document.getElementById("files").style.display = "none";
     document.getElementById("news").style.display = "none";
     document.getElementById("user_images").style.display = "none";
+    document.getElementById("comments").style.display = "none";
+    document.getElementById("dependecny").style.display = "none";
+}}
+
+function comments() {
+  var x = document.getElementById("comments");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    document.getElementById("description").style.display = "none";
+    document.getElementById("changelog").style.display = "none";
+    document.getElementById("files").style.display = "none";
+    document.getElementById("news").style.display = "none";
+    document.getElementById("user_images").style.display = "none";
+    document.getElementById("videos").style.display = "none";
+    document.getElementById("dependecny").style.display = "none";
+}}
+
+function dependecny() {
+  var x = document.getElementById("dependecny");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    document.getElementById("description").style.display = "none";
+    document.getElementById("changelog").style.display = "none";
+    document.getElementById("files").style.display = "none";
+    document.getElementById("news").style.display = "none";
+    document.getElementById("user_images").style.display = "none";
+    document.getElementById("comments").style.display = "none";
+    document.getElementById("videos").style.display = "none";
 }}
 
 function clear() {
@@ -242,6 +367,8 @@ function clear() {
     document.getElementById("news").style.display = "none";
     document.getElementById("user_images").style.display = "none";
     document.getElementById("videos").style.display = "none";
+    document.getElementById("comments").style.display = "none";
+    document.getElementById("dependecny").style.display = "none";
 
     description();
 

@@ -68,6 +68,7 @@ main {
     top: 66px;
     color: white;
     padding: 1.5rem;
+    height: 100%;
 
 }
 
@@ -94,6 +95,7 @@ main {
     height: 380px;
     text-decoration: none;
     color: white;
+    background: #4e4e4e;
 
 }
 
@@ -222,6 +224,13 @@ main {
 
 }
 
+#files_list {
+
+    float: left;
+    width: 100%;
+
+}
+
 .souboros {
 
     display: flex;
@@ -292,13 +301,70 @@ label {
 
 }
 
-.novinka {
+#changes_list {
 
+    float: left;
+    width: 100%;
+
+}
+
+.changelog {
+
+    display: flex;
+    align-items: center;
+    background: #4e4e4e;
     margin-bottom: 1.5rem;
-    border-bottom: solid white 2px;
-    padding-bottom: 0.7rem;
+    padding: 0.8rem;
     list-style-type: square;
 
+}
+
+.changelog li {
+
+    margin-left: 1.5rem;
+}
+
+#list_of_mods {
+
+    float: left;
+
+}
+
+.novinka {
+
+    background: #4e4e4e;
+    margin-bottom: 1.5rem;
+    padding: 0.8rem;
+    list-style-type: square;
+
+}
+
+.headline_comment {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.headline_comment h3 {
+
+    margin-left: 1rem;
+    font-size: 1.1rem;
+
+}
+
+.headline_comment p {
+
+    margin-left: 2.5rem;
+    border-left: 1px solid;
+    padding-left: 1rem;
+
+}
+
+.novinka li {
+
+    margin-left: 1.5rem;
+    padding-bottom: 0.8rem;
 }
 
 .novinka a {
@@ -307,20 +373,25 @@ label {
 
 }
 
-#user_images button {
+.upload_user {
 
     height: 2.1rem;
     text-align: center;
     background-color: #80aaff;
     color: white;
-    float: right;
+    float: left;
+    margin-left: 2rem;
+    margin-bottom: 0;
 
 }
 
 #list_of_images {
 
+    float: left;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
 
 }
 
@@ -349,9 +420,62 @@ label {
 
 }
 
+.comment {
+
+    display: flex;
+    align-items: center;
+    background: #4e4e4e;
+    margin-bottom: 1.5rem;
+    padding: 0.8rem;
+
+}
+
+.content {
+
+    margin-left: 2rem;
+
+}
+
+.upload_author_only {
+
+    background: #A52A2A;
+    height: 2.1rem;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-left: 1.7rem;
+
+}
+
+#videos_list {
+
+    float: left;
+    display: flex;
+    flex: wrap;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+iframe {
+
+    float: left;
+    height: 15rem;
+    width: auto;
+    margin-left: 2.5rem;
+
+}
+
+#mod_list {
+
+    float: left;
+    width: 100%;
+
+}
+
 footer {
 
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: black;
